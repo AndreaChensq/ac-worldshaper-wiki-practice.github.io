@@ -40,6 +40,7 @@ body {
 
 /* header-bg */
 .header-bg-video {
+	z-index: -5;
 	top: -8%;
 	position: fixed;
 	margin: 0;
@@ -420,10 +421,12 @@ main {
 	opacity: 1;
 	transform: translateY(0);
 }
-.mb-img-box{
+
+.mb-img-box {
 	background-color: #1b6cda;
 	width: 100%;
 }
+
 @media screen and (max-width:767px) {
 	.grid-2-unequal {
 		grid-template-columns: repeat(1, 1fr);
